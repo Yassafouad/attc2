@@ -1,0 +1,36 @@
+{
+  "rewrites": [
+    {
+      "source": "/landingYas2",
+      "destination": "/landingYas2/index.html"
+    },
+    {
+      "source": "/landingYas2/(.*)",
+      "destination": "/landingYas2/$1"
+    },
+    {
+      "source": "/",
+      "destination": "/landingYas2/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "name": "attc-website",
+  "version": "2.0.0",
+  "description": "ATTC - Al-Ahram Travel & Tourism Agency Multi-page Website",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yassafouad/attc2.git"
+  },
+  "keywords": [
+    "travel",
+    "tourism",
+    "static-site"
+  ],
+  "author": "ATTC",
+  "license": "MIT"
+}
+
